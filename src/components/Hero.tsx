@@ -42,9 +42,11 @@ export default function Hero() {
             <button className="w-full sm:w-auto px-7 py-3.5 rounded bg-gradient-to-r from-[#b100ff] to-[#00ff8b] text-white font-semibold hover:opacity-90 transition-opacity">
               Explore Marketplace
             </button>
-            <button className="w-full sm:w-auto px-7 py-3.5 rounded border border-[#b100ff] text-white font-semibold hover:bg-[rgba(177,0,255,0.1)] transition-all shadow-[0_0_10px_rgba(177,0,255,0.3)]">
-              Learn More
-            </button>
+            <a href="https://gitbook.airived.xyz/" target="_blank" rel="noopener noreferrer">
+              <button className="w-full sm:w-auto px-7 py-3.5 rounded border border-[#b100ff] text-white font-semibold hover:bg-[rgba(177,0,255,0.1)] transition-all shadow-[0_0_10px_rgba(177,0,255,0.3)]">
+              Gitbook
+              </button>
+            </a>
           </div>
         </div>
       </div>
